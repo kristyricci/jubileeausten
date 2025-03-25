@@ -165,7 +165,7 @@ header h2 span {
   justify-content: center;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 970px) {
   #contact .full-width {
     padding: 110px 0px;
     flex-wrap: nowrap;
@@ -178,7 +178,7 @@ header h2 span {
   width: 100%;
   border: 12px solid #ffffff;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 970px) {
   #contact img#contact-img {
     margin-right: 25px;
     width: auto;
@@ -224,7 +224,7 @@ header h2 span {
   padding-left: 0;
   flex-wrap: wrap;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 970px) {
   #contact ul {
     flex-wrap: nowrap;
     justify-content: flex-start;
