@@ -178,7 +178,7 @@ header h2 span {
   width: 100%;
   border: 12px solid #ffffff;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
   #contact img#contact-img {
     margin-right: 25px;
     width: auto;
