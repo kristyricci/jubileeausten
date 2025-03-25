@@ -171,6 +171,11 @@ header h2 span {
     flex-wrap: nowrap;
     justify-content: space-between;
     gap: 30px;
+    align-items: center;
+  }
+  #contact .half-width {
+    width: auto;
+    float: none;
   }
 }
 
