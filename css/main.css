@@ -185,17 +185,17 @@ header h2 span {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
   #contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
     padding-left: 115px;
   }
-}
+} */
 
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
   #contact #envelope {
     padding: 0 10px 0 115px;
   }
-}
+} */
 #contact h2 {
   font-family: 'Lora', serif;
   font-size: 36px;
@@ -235,5 +235,5 @@ header h2 span {
 }
 #contact ul img {
   font-size: 32px;
-  padding-right: 48px;
+/*   padding-right: 48px; */
 }
