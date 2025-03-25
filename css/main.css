@@ -42,7 +42,7 @@ header h1 {
 @media only screen and (min-width: 1200px) {
   nav {
       float: right;
-      padding: 75px 25px;
+      padding: 60px 25px 75px;
   }
 }
 
