@@ -156,16 +156,23 @@ header h2 span {
 /*****CONTACT****/
 #contact {
   background-color: #ebebeb;
+  padding: 0 20px;
 }
 #contact .full-width {
-  padding: 110px 0;
+  padding: 110px 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 #contact img#contact-img {
-  margin-left: 25px;
+  width: 100%;
   border: 12px solid #ffffff;
+}
+@media only screen and (min-width: 768px) {
+  #contact img#contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+  }
 }
 #contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
   padding-left: 115px;
@@ -198,7 +205,15 @@ header h2 span {
 }
 #contact ul {
   list-style: none;
+  padding-left: 0;
+  flex-wrap: wrap;
 }
+@media only screen and (min-width: 768px) {
+  #contact ul {
+    flex-wrap: nowrap;
+  }
+}
+
 #contact ul li {
   display: inline-block;
 }
